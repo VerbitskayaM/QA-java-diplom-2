@@ -19,7 +19,7 @@ import java.util.UUID;
 import static org.junit.Assert.fail;
 @DisplayName("Создание заказа")
 public class CreateOrderTests {
-    private String email, password, name, token;
+    private String token;
     private List<Ingredient> ingredients = new ArrayList<>();
     private final OrderApiSteps orderApi = new OrderApiSteps();
     private final UserApiSteps userApi = new UserApiSteps();
@@ -28,9 +28,9 @@ public class CreateOrderTests {
     @Before
     @Step("Подготовка тестовых данных")
     public void setUp() {
-        email = "e-mail_" + UUID.randomUUID() + "@mail.com";
-        password = "pass_" + UUID.randomUUID();
-        name = "name";
+        String email = "e-mail_" + UUID.randomUUID() + "@mail.com";
+        String password = "pass_" + UUID.randomUUID();
+        String name = "name";
 
         // Создание пользователя
         Response response = userApi.createUser(email, password, name);

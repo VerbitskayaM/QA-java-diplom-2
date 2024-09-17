@@ -6,9 +6,8 @@ import dto.UserResponse;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
+import org.junit.Assert;
 
-import static org.hamcrest.CoreMatchers.equalTo;
-import static org.hamcrest.MatcherAssert.*;
 
 public class UserApiSteps extends UserClient {
     @Step("Отправка запроса на создание пользователя")
@@ -32,8 +31,8 @@ public class UserApiSteps extends UserClient {
         User actualUser = response.body().as(UserResponse.class).getUser();
         Allure.addAttachment("Новый пользователь", actualUser.toString());
 
-        assertThat("Не совпадают email-ы", actualUser.getEmail(), equalTo(expectedMail));
-        assertThat("Не совпадают имена", actualUser.getName(), equalTo(expectedName));
+        Assert.assertEquals("Не совпадают email-ы", actualUser.getEmail(), expectedMail);
+        Assert.assertEquals("Не совпадают имена", actualUser.getName(), expectedName);
 
         new ResponseChecksSteps().checkStatusCode(loginUser(expectedMail, expectedPassword), 200);
     }
