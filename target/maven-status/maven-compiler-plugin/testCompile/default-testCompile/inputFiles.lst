@@ -1,0 +1,17 @@
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/clients/ApiUrls.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/clients/BaseClient.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/clients/OrderClient.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/clients/UserClient.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/dto/Ingredient.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/dto/IngredientsResponse.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/dto/Order.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/dto/User.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/dto/UserResponse.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/steps/OrderApiSteps.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/steps/ResponseChecksSteps.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/steps/UserApiSteps.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/tests/CreateOrderTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/tests/CreateUserTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/tests/GetUsersOrderListTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/tests/LoginUserTests.java
+/Users/verbitskayam/IdeaProjects/diplom/QA-java-diplom-2/src/test/java/tests/UpdateUserDataTests.java
